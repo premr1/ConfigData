@@ -4,15 +4,15 @@ learning spring cloud by kenny65 udemy course
 https://www.udemy.com/microservices-with-spring-cloud
 
 =================== step as of for pushing chnages into git ======================
+<pre>
 git init
 Initialized empty Git repository in /Users/prem/Downloads/lab-3-server/.git/
-MacBook-Pro:lab-3-server prem$ git add README.md
-fatal: pathspec 'README.md' did not match any files
-MacBook-Pro:lab-3-server prem$ vi README.md
-MacBook-Pro:lab-3-server prem$ git add README.md
-MacBook-Pro:lab-3-server prem$ vi application.properites
-MacBook-Pro:lab-3-server prem$ git add application.properites
-MacBook-Pro:lab-3-server prem$ git status
+vi README.md
+git add README.md
+vi application.properites
+git add application.properites
+git status
+
 On branch master
 
 Initial commit
@@ -32,14 +32,15 @@ Untracked files:
         mvnw.cmd
         pom.xml
         src/
-
-MacBook-Pro:lab-3-server prem$ git commit -m "first commit"
+ git commit -m "first commit"
 [master (root-commit) 9f16bca] first commit
  2 files changed, 2 insertions(+)
  create mode 100644 README.md
  create mode 100644 application.properites
-MacBook-Pro:lab-3-server prem$ git remote add origin https://github.com/premr1/ConfigData.git
-MacBook-Pro:lab-3-server prem$ git push -u origin master
+git remote add origin https://github.com/premr1/ConfigData.git
+git push -u origin master
+
+</pre>
 
 
 
